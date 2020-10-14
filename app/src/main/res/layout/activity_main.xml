@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hotelmenu2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="150dp"
+                android:layout_width="120dp"
+                android:layout_height="75dp"
+                android:src="@drawable/hoteluu"/>
+        </RelativeLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins">
+            <androidx.cardview.widget.CardView
+                app:cardElevation="6dp"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               >
+
+                <LinearLayout
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/jayakartaHotel"
+                        android:layout_width="900dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/jayakartajkt"
+                        android:text="" />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="120dp"
+                        android:src="@drawable/star5"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="60dp"
+                        android:text="Jayakarta Jakarta Hotel"
+                        android:textColor="#FF0000"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/mapjayakartabdg"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="100dp"
+                        android:text="$100/Night"
+                        android:textColor="#FF0000"
+                        android:textSize="25sp" />
+                    <Button
+                        android:id="@+id/bookjayakartajkt"
+                        android:background="@drawable/booking"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        />
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/maindescjayakartajkt"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="100dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Facilities : "/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="50dp"
+                            android:layout_height="48dp"
+                            android:src="@drawable/wifi"
+                            />
+                        <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="40dp"
+                            android:layout_height="42dp"
+                            android:src="@drawable/gym"
+                            />
+                        <ImageView
+                            android:layout_marginRight="10dp"
+
+                            android:layout_width="40dp"
+                            android:layout_height="51dp"
+                            android:src="@drawable/karaoke"/>
+                        <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="45dp"
+                            android:layout_height="55dp"
+                            android:src="@drawable/bed"/>
+                        <ImageView
+                            android:layout_marginRight="10dp"
+
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/lunch"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>
