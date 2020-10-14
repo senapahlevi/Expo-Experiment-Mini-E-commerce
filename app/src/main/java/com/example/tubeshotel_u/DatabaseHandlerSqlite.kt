@@ -14,7 +14,7 @@ val COL_NAME = "name"
 val COL_AGE ="age"
 val COL_ID ="id"
 
-
+//p saya dari github loh 
 class DatabaseHandlerSqlite (var context:Context):SQLiteOpenHelper(context,DATABASE_NAME,null,1){
     override fun onCreate(db: SQLiteDatabase?) {
         val createTable= "CREATE TABLE"+ TABLE_NAME+"("+
