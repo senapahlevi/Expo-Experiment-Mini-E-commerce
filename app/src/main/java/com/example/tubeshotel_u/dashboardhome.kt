@@ -15,7 +15,10 @@ class dashboardhome:AppCompatActivity() {
             startActivity(intent)
 
         }
-
+        jayakartaHoteljkt.setOnClickListener {
+            val intentjkt = Intent(this,Hotelmenu2::class.java)
+            startActivity(intentjkt)
+        }
 
 
     }
