@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">TubesHotel-U</string>
+    <string name="open">open</string>
+    <string name="close">CLose</string>
+
     <string name="titledescjayakarta">Description</string>
     <string name="mapjayakartabdg">Bandung,West Java</string>
     <string name="maindescjayakarta">
@@ -18,4 +21,8 @@ We attract you a tour to the local tea plantations or play around of golf at the
 Closed to Jakartas old city, now being gradually restored to its former glory, and with easy access to all parts of the city via the city busway system, Jl. Hayam Wuruk makes both a convenient and fascinating base for both tourist and business people alike.
 
 Business and leisure travelers seeking the many up-market comforts of a top-quality hotel will find all these and more at our four-stars The Jayakarta SP Jakarta Hotel Spa, where world-class standards of service are seamlessly. Finally we welcome you to Jakarta.</string>
+    <string name="activity">Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

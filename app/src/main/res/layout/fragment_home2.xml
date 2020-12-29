@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Hotelmenu1">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.bottom_navigation_bar.fragments.HomeFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -42,46 +42,46 @@
                 android:columnCount="1"
                 android:rowCount="4"
                 android:alignmentMode="alignMargins">
-                    <androidx.cardview.widget.CardView
-                        app:cardElevation="6dp"
-                        android:layout_columnWeight="1"
-                        android:layout_width="wrap_content"
+                <androidx.cardview.widget.CardView
+                    app:cardElevation="6dp"
+                    android:layout_columnWeight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/fjayakartaHotelHome"
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp" android:src="@drawable/jayakarta"
+                            android:text="" />
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="120dp"
+                            android:src="@drawable/star5"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="40dp"
+                            android:text="Jayakarta Bandung Hotel"
+                            android:textColor="#FF0000"
+                            android:textSize="20sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="80dp"
+                            android:text="West Java,Bandung"
+                            android:textColor="#FF0000"
+                            android:textSize="15sp" />
 
-                        <LinearLayout
-                            android:padding="16dp"
-                            android:orientation="vertical"
-                            android:gravity="center"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <ImageView
-                                android:id="@+id/jayakartaHotelHome"
-                                android:layout_width="wrap_content"
-                                android:layout_height="200dp" android:src="@drawable/jayakarta"
-                                android:text="" />
-                            <ImageView
-                                android:layout_width="100dp"
-                                android:layout_height="30dp"
-                                android:layout_marginRight="120dp"
-                                android:src="@drawable/star5"
-                                />
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginRight="60dp"
-                                android:text="Jayakarta Bandung Hotel"
-                                android:textColor="#FF0000"
-                                android:textSize="20sp" />
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginRight="90dp"
-                                android:text="West Java,Bandung"
-                                android:textColor="#FF0000"
-                                android:textSize="15sp" />
-
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
@@ -95,11 +95,11 @@
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginBottom="40dp"
                         >
                         <ImageView
                             android:layout_marginTop="30dp"
-                            android:id="@+id/jayakartaHoteljkt"
+                            android:id="@+id/fjayakartaHoteljkt"
                             android:layout_width="wrap_content"
                             android:layout_height="200dp"
                             android:src="@drawable/jayakartajkt"
@@ -113,14 +113,14 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginRight="60dp"
+                            android:layout_marginRight="43dp"
                             android:text="Jayakarta Jakarta Hotel"
                             android:textColor="#FF0000"
                             android:textSize="20sp" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginRight="90dp"
+                            android:layout_marginRight="80dp"
                             android:text="Jakarta,Kemang"
                             android:textColor="#FF0000"
                             android:textSize="15sp" />

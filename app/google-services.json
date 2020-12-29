@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "362423045587",
+    "firebase_url": "https://tubeshotel-u.firebaseio.com",
+    "project_id": "tubeshotel-u",
+    "storage_bucket": "tubeshotel-u.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362423045587:android:e3ab1fc3d6c9024359b326",
+        "android_client_info": {
+          "package_name": "com.example.tubeshotel_u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362423045587-erimfam727ic8e0hq8srfr2u51c9cp8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tubeshotel_u",
+            "certificate_hash": "478977a8d7be417827fd56210a6d39af6da20040"
+          }
+        },
+        {
+          "client_id": "362423045587-mu90ps3jsin4dk92bt3993g996si78r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV37Rgq5stH2rnRsNyEqrkZwsUtjEFX68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362423045587-mu90ps3jsin4dk92bt3993g996si78r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

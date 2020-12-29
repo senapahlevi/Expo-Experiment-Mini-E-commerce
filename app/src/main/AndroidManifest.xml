@@ -9,14 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splashscreen"></activity>
-        <activity android:name=".Hotelmenu2" />
-        <activity android:name=".SharedPreference" />
-        <activity android:name=".Hotelmenu1" />
         <activity android:name=".RegisterActivityy" />
+        <activity android:name=".ShowStatus" />
+        <activity android:name=".Adapter" />
+        <activity android:name=".Booked" />
+        <activity android:name=".SplasshScreenn" />
+        <activity android:name=".Hotelmenu2" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".SharedPreference" />
+        <activity android:name=".HomeFragment" />
+        <activity android:name=".statusFragment" />
+        <activity android:name=".ProfileFragment" />
+        <activity android:name=".Menuhome" />
+        <activity android:name=".FAQ" />
         <activity android:name=".sharedMainActivity" />
-        <activity android:name=".dashboardhome">
+        <activity android:name=".LoginActivityy" />
+        <activity android:name=".Order_hotel1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

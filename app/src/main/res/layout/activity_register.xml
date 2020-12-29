@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.864" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/Linksignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00D82020"
@@ -32,7 +32,7 @@
         android:textColor="#000CFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintHorizontal_bias="0.801"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -42,7 +42,7 @@
         android:id="@+id/btnregis"
         android:layout_width="311dp"
         android:layout_height="69dp"
-        android:background="@drawable/btnregister"
+        android:background="@drawable/btnbgregister"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.57"
@@ -57,7 +57,7 @@
         android:background="#00D82020"
         android:text="Phone"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -72,7 +72,7 @@
         android:background="#00D82020"
         android:text="Password"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.193"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -90,10 +90,10 @@
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintHorizontal_bias="0.598"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.288" />
 
     <EditText
         android:id="@+id/regisemail"
@@ -147,7 +147,7 @@
         android:background="#00D82020"
         android:text="Email"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -162,13 +162,13 @@
         android:background="#00D82020"
         android:text="Name"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintVertical_bias="0.238" />
 
     <ImageView
         android:id="@+id/imageView2"

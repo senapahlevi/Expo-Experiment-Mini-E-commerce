@@ -4,22 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D53434"
-    tools:context=".SplasshScreenn">
-
-    <ImageView
+>
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#D3CECE"
-        android:src="@drawable/hoteluu" />
+        android:id="@+id/listView"
+        app:layout_constraintBottom_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Find best cheap hotel"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="202dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
